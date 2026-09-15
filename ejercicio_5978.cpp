@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    string nombre1, nombre2;
+    int puntos1, puntos2;
+
+    cin >> nombre1 >> puntos1;
+    cin >> nombre2 >> puntos2;
+
+    if (puntos1 > puntos2)
+    {
+        cout << nombre1;
+    }
+    else
+    {
+        cout << nombre2;
+    }
+    return 0;
+}
